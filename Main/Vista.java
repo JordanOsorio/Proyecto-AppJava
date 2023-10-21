@@ -1,9 +1,28 @@
-package main;
+package Main;
 
-public class vista{
-
-
+public class Vista {
 
 
-    
+    public static void main(String arg[]){
+
+
+        System.out.println("Holanda que talca");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
 }
