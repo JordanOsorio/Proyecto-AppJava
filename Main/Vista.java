@@ -1,5 +1,10 @@
 package Main;
 
+/**
+ *
+ * @author Jordán Osorio
+ */
+
 public class Vista {
 
 
