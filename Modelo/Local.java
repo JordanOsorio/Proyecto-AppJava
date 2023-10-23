@@ -25,13 +25,8 @@ public abstract class Local {
     }
 
     public String print(){
-        return "idLocal = " + idLocal;
+        return "Local : " + "idLocal"+ idLocal;
     }
-
-
-
-
-
 
 
 

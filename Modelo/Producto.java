@@ -1,7 +1,5 @@
 package Modelo;
 
-import java.util.Date;
-
 /**
  *
  * @author Jordán Osorio
@@ -13,13 +11,13 @@ public class Producto {
     private String tipoProducto;
     private String nombreProducto;
     private Double precio;
-    private Date fechaVencimiento;
+    private String fechaVencimiento;
     private int stock;
 
     public Producto(){
     }
     
-    public Producto(int codProd, String tipoProducto,String nombreProducto,Double precio, Date fechaVencimiento, int stock){
+    public Producto(int codProd, String tipoProducto,String nombreProducto,Double precio, String fechaVencimiento, int stock){
         this.codProd = codProd;
         this.tipoProducto = tipoProducto;
         this.nombreProducto = nombreProducto;
@@ -60,11 +58,11 @@ public class Producto {
         this.precio = precio;
     }
 
-    public Date getFechaVencimiento() {
+    public String getFechaVencimiento() {
         return fechaVencimiento;
     }
 
-    public void setFechaVencimiento(Date fechaVencimiento) {
+    public void setFechaVencimiento(String fechaVencimiento) {
         this.fechaVencimiento = fechaVencimiento;
     }
 
